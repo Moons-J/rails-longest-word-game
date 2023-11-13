@@ -1,0 +1,15 @@
+<div class="background">
+  <h1 id="title">New GAME</h1>
+  <div id="container" class='d-flex'>
+    <% @letters.each do |letter|%>
+    <div class='letter_card'><%= letter %></div>
+    <% end %>
+  </div>
+  <div class="answer_box">
+    <form action="/score">
+      <label for="answer">What is the longest word you can find?</label><br>
+      <input type="text" name="answer">
+      <input type="submit" value="Enter">
+    </form>
+  </div>
+</div>

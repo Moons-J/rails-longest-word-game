@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+#title {
+  font-size: 300%;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  background-color:gold;
+  box-shadow: 0 0 20px;
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+.letter_card {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  /* display: flex; */
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 200%;
+  margin: 10px;
+  box-shadow: 2.5px 2.5px 5px;
+}
+
+.answer_box {
+  margin: 50px;
+  text-align: center;
+}
